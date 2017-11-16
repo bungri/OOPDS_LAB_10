@@ -52,7 +52,8 @@ void main()
 	cout << "Thesaurus of [" << testWord << "]: \n";
 	for (itr = range.begin(); itr != range.end(); ++itr)
 	{
-		cout << *itr;
+		mv = itr.getValue();
+		cout << mv;
 	}
 	cout << endl;
 }
